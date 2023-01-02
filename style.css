@@ -84,9 +84,9 @@ body {
     font-weight: var(--fw-bold);
 }
 
-.rating #one,
-.rating #two,
-.rating #three {
+.rating .first,
+.rating .second,
+.rating .third {
   background-color: var(--clr-neutral-stars-background);
   margin: 1rem 0;
   border-radius: 0.5rem;
@@ -206,9 +206,9 @@ body {
     flex: 1;
   }
 
-  .rating #one,
-  .rating #two,
-  .rating #three {
+  .rating .first,
+  .rating .second,
+  .rating .third {
     display: flex;
     align-items: center;
     max-width: 450px;
@@ -216,12 +216,12 @@ body {
     padding: 0;
   }
 
-  .rating #two {
+  .rating #second {
     position: relative;
     left: 3rem;
   }
 
-  .rating #three {
+  .rating #third {
     position: relative;
     left: 6rem;
   }
