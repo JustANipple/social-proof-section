@@ -128,7 +128,7 @@ body {
     color: var(--clr-primary-400);
 }
 
-#review {
+.review {
     color: var(--clr-neutral-review-400);
     padding: 1rem 0 0 0;
     letter-spacing: 0.5px;
