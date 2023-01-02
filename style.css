@@ -119,12 +119,12 @@ body {
   margin: 1.5rem 0;
 }
 
-#user p:nth-child(1) {
+.user p:nth-child(1) {
     color: var(--clr-neutral-review-400);
     font-weight: var(--fw-bold);
 }
 
-#user p:nth-child(2) {
+.user p:nth-child(2) {
     color: var(--clr-primary-400);
 }
 
@@ -134,7 +134,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-#user {
+.user {
     display: flex;
     align-items: center;
 }
@@ -152,7 +152,7 @@ body {
   margin: 1.5rem;
 }
 
-#user img {
+.user img {
   border-radius: 3rem;
   width: 2.5rem;
 }
